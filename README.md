@@ -5,7 +5,7 @@
 
 ### Modern • Glassmorphism • Responsive • Vanilla JavaScript
 
-<img src="banner.png" alt="Banner"/>
+<img src="img/banner.png" alt="Banner"/>
 
 <br>
 
