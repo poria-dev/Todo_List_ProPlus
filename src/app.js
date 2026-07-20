@@ -552,9 +552,10 @@ function clone(cl) {
 
     })
 
-    
+
 
     arr = clone
     localStorage.setItem("unique", JSON.stringify(arr))
 
+    
 }
