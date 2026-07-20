@@ -10,7 +10,6 @@ const boxremove = document.getElementById("boxremove")
 const btn2 = document.getElementById("btn2")
 
 
-
 let arr = []
 let art;
 let og;
@@ -557,5 +556,5 @@ function clone(cl) {
     arr = clone
     localStorage.setItem("unique", JSON.stringify(arr))
 
-    
+
 }
