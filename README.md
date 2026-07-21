@@ -90,60 +90,7 @@ Unlike traditional Todo applications, **Premium Todo Workspace** focuses on crea
 
 </div>
 
----
 
-# 📸 Responsive Preview
-
-> Optimized for every screen size.
-
-<br>
-
-<div align="center">
-
-## 🖥 Desktop
-
-<img
-src="./src/img/lab.png"
-alt="Desktop Preview"
-width="100%"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<table>
-
-<tr>
-
-<td align="center">
-
-### 📱 Tablet
-
-<img
-src="./src/img/tab.png"
-width="100%"
-alt="Tablet Preview"/>
-
-</td>
-
-<td align="center">
-
-### 📲 Mobile
-
-<img
-src="./src/img/phone.png"
-width="70%"
-alt="Mobile Preview"/>
-
-</td>
-
-</tr>
-
-</table>
-
-</div>
 
 ---
 
