@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./img/banner.png" width="100%" alt="Premium Todo Workspace Banner"/>
+<img src="gg.png" width="100%" alt="Premium Todo Workspace Banner"/>
 
 <br>
 
