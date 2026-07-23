@@ -8,6 +8,12 @@ const orgbox = document.getElementById("orgbox")
 const boxadd = document.getElementById("boxadd")
 const boxremove = document.getElementById("boxremove")
 const btn2 = document.getElementById("btn2")
+let removeclick = document.querySelectorAll(".removeclick")
+
+
+
+
+
 
 
 let arr = []
@@ -53,9 +59,7 @@ btn1.addEventListener("click", () => {
         title: inp.value,
         active: false,
         important: false,
-        all: false,
-        active2: false,
-        remove: false
+
     }
 
     if (og.title == "") {
@@ -87,7 +91,7 @@ btn1.addEventListener("click", () => {
 })
 
 
-function create(task, index) {
+function create(task) {
 
     art = document.createElement("div")
 
@@ -125,7 +129,7 @@ function create(task, index) {
        
             
                 <button onclick="remove(event)"
-                    class="group w-11 h-11 flex justify-center items-center rounded-2xl bg-slate-800/60 backdrop-blur-md border border-slate-700/50 cursor-pointer transition-all duration-300 hover:bg-red-500/20 hover:border-red-400 hover:scale-110">
+                    class="removeclick group w-11 h-11 flex justify-center items-center rounded-2xl bg-slate-800/60 backdrop-blur-md border border-slate-700/50 cursor-pointer transition-all duration-300 hover:bg-red-500/20 hover:border-red-400 hover:scale-110">
 
                     <svg xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -237,10 +241,13 @@ function create(task, index) {
 
     allcount.innerHTML = `All : ${count2}`
 
-    // number++
 
     inp.value = null
     inp.focus()
+
+
+
+
 
 
 
@@ -291,7 +298,14 @@ function active(e) {
 function remove(e) {
 
 
-    console.log(number);
+    removeclick = document.querySelectorAll(".removeclick")
+
+
+    removeclick.forEach((item) => {
+
+        item.setAttribute("disabled", "disabled")
+
+    })
 
 
 
@@ -303,6 +317,7 @@ function remove(e) {
 
 
     let chance = 4
+    window.chance = chance
 
     parent.classList.toggle("bg-red-600")
     parent.classList.remove("bg-slate-950/30")
@@ -326,8 +341,7 @@ function remove(e) {
             if (chance < 0) {
 
                 parent.remove()
-
-
+                clearInterval(x)
                 clone()
 
                 count3++
@@ -335,6 +349,12 @@ function remove(e) {
 
                 count2--
                 allcount.innerHTML = `All : ${count2}`
+
+                removeclick.forEach((item) => {
+
+                    item.removeAttribute("disabled")
+
+                })
 
 
 
@@ -344,22 +364,18 @@ function remove(e) {
                 }
 
 
-                clearInterval(x)
 
             } else {
                 boxremove.children[0].innerHTML = ` Time remaining : ${chance} `
 
-
                 // ===========================================
-
-
 
             }
 
             // ===============================================
 
-
         }, 1000);
+
 
     }, 200);
 
@@ -373,8 +389,6 @@ function stop(e) {
 
     console.log(e.target);
 
-    clearInterval(x)
-
     parent.classList.add("bg-slate-950/30")
     parent.classList.remove("bg-red-600")
     rem.removeAttribute("disabled", "disabled")
@@ -386,6 +400,17 @@ function stop(e) {
     setTimeout(() => {
         boxremove.style.right = "-100%"
     }, 400);
+
+    removeclick.forEach((item) => {
+
+        item.removeAttribute("disabled")
+
+    })
+    clearInterval(x)
+    chance = 0
+
+    console.log(chance);
+
 
 
 }
@@ -546,14 +571,13 @@ function clone(cl) {
         clone.push({
             title: val.innerHTML,
             important: val.closest(".orart").classList.contains("important_star"),
-            active: val.closest(".orart").classList.contains("active")
+            active: val.closest(".orart").classList.contains("active"),
         })
 
     })
 
-
-
     arr = clone
+
     localStorage.setItem("unique", JSON.stringify(arr))
 
 

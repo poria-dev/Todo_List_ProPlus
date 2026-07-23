@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium Todo App & Portfolio</title>
-    
-    <!-- Tailwind CSS (Ensure your build includes this or use CDN for testing) -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
      <link rel="stylesheet" href="output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +43,7 @@
     </div>
 
     <!-- بدنه اصلی اپلیکیشن تسک‌ها -->
-    <section class="mx-auto my-6 w-full max-w-2xl bg-slate-900/20 backdrop-blur-2xl border border-slate-800/60 rounded-[2rem] p-5 sm:p-8 shadow-2xl shadow-indigo-950/10 flex flex-col gap-6">
+    <section class="section_org mx-auto my-6 w-full max-w-2xl bg-slate-900/20 backdrop-blur-2xl border border-slate-800/60 rounded-[2rem] p-5 sm:p-8 shadow-2xl shadow-indigo-950/10 flex flex-col gap-6">
         
         <div class="flex items-center justify-between border-b border-slate-800/60 pb-4">
             <div>
@@ -82,7 +80,7 @@
             <div class="w-full md:w-[60%] flex gap-2 sm:gap-3 justify-between">
                 <span id="allcount" class="flex-1 bg-indigo-500/5 border border-indigo-500/20 text-indigo-400 font-semibold text-[11px] sm:text-xs tracking-wider py-2.5 rounded-xl capitalize flex flex-col justify-center items-center gap-1 hover:bg-indigo-500/10 transition-all cursor-default">All : 0</span>
                 <span id="activecount" class="flex-1 bg-emerald-500/5 border border-emerald-500/20 text-emerald-400 font-semibold text-[11px] sm:text-xs tracking-wider py-2.5 rounded-xl capitalize flex flex-col justify-center items-center gap-1 hover:bg-emerald-500/10 transition-all cursor-default">Active : 0</span>
-                <span id="removecount" class="flex-1 bg-rose-500/5 border border-rose-500/20 text-rose-400 font-semibold text-[11px] sm:text-xs tracking-wider py-2.5 rounded-xl capitalize flex flex-col justify-center items-center gap-1 hover:bg-rose-500/10 transition-all cursor-default">Removed : 0</span>
+                <span id="removecount" class="removecounter flex-1 bg-rose-500/5 border border-rose-500/20 text-rose-400 font-semibold text-[11px] sm:text-xs tracking-wider py-2.5 rounded-xl capitalize flex flex-col justify-center items-center gap-1 hover:bg-rose-500/10 transition-all cursor-default">Removed : 0</span>
             </div>
         </div>
 
@@ -165,7 +163,6 @@
         </div>
     </footer>
 
-    <!-- فایل‌های اسکریپت اصلی بدون دستکاری -->
     <script src="../js/node_modules/js-cookie/dist/js.cookie.min.js"></script>
     <script src="app.js"></script>
 </body>
