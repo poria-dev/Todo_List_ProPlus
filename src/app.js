@@ -50,6 +50,8 @@ if (give && give.length > 0) {
 
 }
 
+progress()
+
 
 // start btn1 ---------
 
@@ -264,13 +266,9 @@ function active(e) {
 
     spa = e.currentTarget
 
-    // spa.setAttribute("data-status", "on")
-
     let box = spa.parentElement.parentElement
     box.classList.toggle("active")
     let para = box.querySelector(".paraa")
-    // console.log(box);
-
 
 
     if (spa.getAttribute("data-status") == "off") {
@@ -283,8 +281,6 @@ function active(e) {
         activecount.innerHTML = `active : ${count}`
 
 
-
-
     } else if (spa.getAttribute("data-status") == "on") {
         box.classList.remove("bg-green-700")
         box.classList.add("bg-slate-950/30")
@@ -292,8 +288,6 @@ function active(e) {
         spa.setAttribute("data-status", "off")
         count--
         activecount.innerHTML = `active : ${count}`
-
-
 
     }
     clone()
@@ -598,6 +592,7 @@ function progress() {
     if (total == 0) {
 
         progressBar.style.width = "0%"
+        progressText.innerHTML = "0%"
         return
 
     }
@@ -615,9 +610,9 @@ function progress() {
 
     let x = parseInt((done / total) * 100)
 
-    progressBar.style.width = x + "%"
-    progressText.innerHTML = x + "%"
+     progressBar.style.width = x + "%"
+     progressText.innerHTML = x + "%"
 
 
-
+    
 }
