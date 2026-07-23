@@ -9,8 +9,8 @@ const boxadd = document.getElementById("boxadd")
 const boxremove = document.getElementById("boxremove")
 const btn2 = document.getElementById("btn2")
 let removeclick = document.querySelectorAll(".removeclick")
-
-
+const progressBar = document.getElementById("progressBar")
+const progressText = document.getElementById("progressText")
 
 
 
@@ -26,10 +26,10 @@ let h3;
 
 
 
+
 let count = 0
 let count2 = 0
 let count3 = 0
-
 let number = 0
 
 
@@ -86,6 +86,8 @@ btn1.addEventListener("click", () => {
         }, 400);
 
     }
+
+
 
 
 })
@@ -281,6 +283,8 @@ function active(e) {
         activecount.innerHTML = `active : ${count}`
 
 
+
+
     } else if (spa.getAttribute("data-status") == "on") {
         box.classList.remove("bg-green-700")
         box.classList.add("bg-slate-950/30")
@@ -289,8 +293,9 @@ function active(e) {
         count--
         activecount.innerHTML = `active : ${count}`
 
-    }
 
+
+    }
     clone()
 }
 
@@ -577,8 +582,42 @@ function clone(cl) {
     })
 
     arr = clone
+    progress()
 
     localStorage.setItem("unique", JSON.stringify(arr))
+
+
+}
+
+
+function progress() {
+
+
+    let total = arr.length
+
+    if (total == 0) {
+
+        progressBar.style.width = "0%"
+        return
+
+    }
+
+    let done = 0
+
+    arr.forEach((val) => {
+        if (val.active == true) {
+
+            done++
+
+        }
+    })
+
+
+    let x = parseInt((done / total) * 100)
+
+    progressBar.style.width = x + "%"
+    progressText.innerHTML = x + "%"
+
 
 
 }
