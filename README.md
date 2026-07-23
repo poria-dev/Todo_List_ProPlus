@@ -1,275 +1,417 @@
-
 <div align="center">
 
-# ✨ Premium Todo Workspace
 
-### Modern • Glassmorphism • Responsive • Vanilla JavaScript
-
-<img src="img/banner.png" alt="Banner"/>
+<img src="gg.png" width="100%" alt="Premium Todo Workspace Banner"/>
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge)](https://poria-dev.github.io/Todo_List_ProPlus/src)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github)](https://github.com/poria-dev/Todo_List_ProPlus)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
-![LocalStorage](https://img.shields.io/badge/Storage-LocalStorage-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-### ⚡ A premium productivity workspace built with pure HTML, Tailwind CSS & Vanilla JavaScript.
+
+# ✨ Premium Todo Workspace
+
+### Modern Productivity • Glassmorphism • Responsive • Vanilla JavaScript
+
+<p>
+
+A premium Todo application crafted with modern UI principles, smooth interactions,
+glassmorphism effects, and responsive layouts — built entirely with Vanilla JavaScript.
+
+</p>
+
+<br>
+
+<a href="https://poria-dev.github.io/Todo_List_ProPlus/src">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://github.com/poria-dev/Todo_List_ProPlus">
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </div>
 
 ---
 
-# 🌐 Live Demo
+<div align="center">
 
-### 🚀 Try it now
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
 
-### https://poria-dev.github.io/Todo_List_ProPlus/src
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white"/>
 
----
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 
-# 🎬 Demo
+<img src="https://img.shields.io/badge/Responsive-✔-22c55e?style=flat-square"/>
 
-<p align="center">
+<img src="https://img.shields.io/badge/LocalStorage-Enabled-2563eb?style=flat-square"/>
 
-<img src="./demo.gif" width="100%"/>
+<img src="https://img.shields.io/badge/License-MIT-orange?style=flat-square"/>
 
-</p>
+<img src="https://img.shields.io/badge/Made%20with-❤-ff4d6d?style=flat-square"/>
 
----
-
-# 🖼 Preview
-
-<p align="center">
-
-<img src="./preview.png" width="100%"/>
-
-</p>
+</div>
 
 ---
 
-# 📖 About
+# 🌟 Why This Project?
 
-**Premium Todo Workspace** is a modern productivity application focused on delivering a beautiful user experience with elegant glassmorphism design, smooth animations and responsive layouts.
+Unlike traditional Todo applications, **Premium Todo Workspace** focuses on creating a polished user experience with elegant animations, premium glassmorphism effects, responsive layouts, and clean architecture.---
 
-Unlike traditional Todo applications, this project was designed with attention to both **UI** and **UX**, making it suitable as a portfolio project.
+# 📑 Table of Contents
 
-Built entirely using **Vanilla JavaScript** without any frameworks.
+- [🎥 Live Demo](#-live-demo)
+- [📸 Responsive Preview](#-responsive-preview)
+- [✨ Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [⚙ Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📊 Dashboard Features](#-dashboard-features)
+- [🎨 UI Highlights](#-ui-highlights)
+- [📱 Responsive Design](#-responsive-design)
+- [⚡ Performance](#-performance)
+- [🧠 What I Learned](#-what-i-learned)
+- [🛣 Roadmap](#-roadmap)
+- [👨‍💻 Developer](#-developer)
+
+---
+
+# 🎥 Live Demo
+
+<div align="center">
+
+### 🚀 Experience the application live
+
+<a href="https://poria-dev.github.io/Todo_List_ProPlus/src">
+
+<img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+</a>
+
+<br><br>
+
+### 🔗 https://poria-dev.github.io/Todo_List_ProPlus/src
+
+</div>
+
+
+
+---
+
+# 🎬 Application Walkthrough
+
+<div align="center">
+
+<img
+src="./demo.gif"
+alt="Application Demo"
+width="100%"/>
+
+</div>
+
+---
+
+# 💎 Project Overview
+
+Premium Todo Workspace is a modern productivity application built with pure HTML, Tailwind CSS, and Vanilla JavaScript.
+
+The project emphasizes elegant UI, smooth interactions, responsive layouts, and real-time task management without relying on external frameworks.
+
+Its primary goal is to demonstrate clean frontend architecture, DOM manipulation, state persistence using LocalStorage, and polished user experience suitable for a professional portfolio.
+
+---
+
+# ✨ Highlights
+
+<div align="center">
+
+| 🚀 Fast | 💾 Persistent | 📱 Responsive | 🎨 Modern UI |
+|:-------:|:-------------:|:-------------:|:------------:|
+| Vanilla JS | LocalStorage | Mobile First | Glassmorphism |
+
+| ⚡ Smooth | 🌙 Dark Mode | ⭐ Interactive | 📊 Live Stats |
+|:---------:|:------------:|:-------------:|:------------:|
+| Animations | Premium Theme | Rich UX | Real-time |
+
+</div>
 
 ---
 
 # ✨ Features
 
-## 📝 Task Management
+<div align="center">
 
-- ✅ Add Tasks
-- ✏️ Edit Tasks
-- ⭐ Mark Important
-- ✔ Complete Tasks
-- 🗑 Delete Tasks
-- ⏳ Delete Countdown
-- ❌ Cancel Delete
-- 💾 Auto Save
-- 🔄 Persistent Data
-- 📊 Live Statistics
+| 📝 Task Management | 🎨 User Interface | ⚡ Smart Functionality |
+|:------------------:|:----------------:|:----------------------:|
+| ➕ Add Tasks | ✨ Glassmorphism Design | 💾 LocalStorage |
+| ✏️ Edit Tasks | 🌙 Premium Dark Theme | 📊 Live Statistics |
+| ⭐ Pin Important Tasks | 🎉 Animated Toasts | 🔄 Auto Save |
+| ✔ Mark as Completed | 🌈 Gradient Effects | ⚡ Instant Rendering |
+| 🗑 Safe Delete | 🪄 Smooth Hover Effects | 🔍 Live Filtering |
+| ⏳ Delete Countdown | 📱 Fully Responsive | 🎯 Dynamic DOM Updates |
+| ❌ Cancel Delete | 💎 Modern Dashboard | 🚀 Lightweight |
+| 📌 Organized Workflow | 🎨 Elegant Typography | 🔥 Optimized Performance |
 
----
-
-## 🎨 Modern Interface
-
-- Glassmorphism Design
-- Dark Theme
-- Responsive Layout
-- Animated Notifications
-- Gradient UI
-- Smooth Transitions
-- Modern Typography
-- Premium Dashboard Style
+</div>
 
 ---
 
-## ⚡ Smart Functionalities
+# 🛠 Tech Stack
 
-- LocalStorage Support
-- Real-time Rendering
-- Active Task Filter
-- Important Task Filter
-- Live Counters
-- Dynamic DOM Manipulation
-- Responsive Components
-- Fast UI Updates
+<div align="center">
 
----
+| Technology | Description |
+|------------|-------------|
+| 🌐 HTML5 | Semantic page structure |
+| 🎨 Tailwind CSS | Utility-first styling |
+| ⚡ Vanilla JavaScript | Application logic |
+| 💾 LocalStorage API | Persistent data storage |
+| 🎭 CSS Animations | Smooth transitions |
+| 📱 Responsive Design | Mobile-first layout |
 
-# 📱 Responsive
-
-Optimized for
-
-- 💻 Desktop
-- 📱 Mobile
-- 📟 Tablet
-- 🖥 Large Screens
+</div>
 
 ---
 
-# 🧠 Tech Stack
-
-| Technology | Usage |
-|------------|------|
-| HTML5 | Structure |
-| Tailwind CSS | Styling |
-| Vanilla JavaScript | Logic |
-| LocalStorage API | Data Persistence |
-
----
-
-# 📂 Folder Structure
+# 📂 Project Structure
 
 ```text
-Todo_List_ProPlus/
-
-├── img/
+Todo_List_ProPlus
 │
-├── src/
+├── img
+│   └── banner.png
+│
+├── src
+│   ├── img
+│   │   ├── lab.png
+│   │   ├── tab.png
+│   │   └── phone.png
+│   │
+│   ├── app.js
 │   ├── index.html
 │   ├── output.css
-│   ├── app.js
+│   └── input.css
 │
-├── preview.png
-├── banner.png
 ├── demo.gif
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# 🚀 Core Features
+# ⚙ Installation
 
-## ➕ Add Tasks
+Clone the repository
 
-Create unlimited tasks instantly.
+```bash
+git clone https://github.com/poria-dev/Todo_List_ProPlus.git
+```
 
----
+Move into the project directory
 
-## ✏️ Edit Tasks
+```bash
+cd Todo_List_ProPlus
+```
 
-Update task names anytime.
+Open the project
 
----
+```bash
+Open src/index.html
+```
 
-## ⭐ Important Tasks
+or use VS Code Live Server
 
-Pin important tasks to the top.
-
----
-
-## ✔ Complete Tasks
-
-Mark tasks as completed with visual feedback.
-
----
-
-## 🗑 Safe Delete
-
-Instead of deleting immediately:
-
-- Countdown starts
-- User can cancel
-- Better user experience
+```bash
+Right Click → Open with Live Server
+```
 
 ---
 
-## 💾 Persistent Storage
+# 🚀 Usage
 
-Every task is automatically saved using LocalStorage.
+### Create Tasks
 
-Refresh the page...
-
-Everything stays exactly where it belongs.
+Add unlimited tasks with a clean and intuitive interface.
 
 ---
 
-# 📊 Statistics
+### Edit Tasks
 
-The dashboard automatically tracks
-
-- Total Tasks
-- Completed Tasks
-- Removed Tasks
-
-Everything updates in real time.
+Modify task names at any time without losing data.
 
 ---
 
-# ⚙ Performance
+### Complete Tasks
 
-- ⚡ Fast Rendering
-- ⚡ Lightweight
-- ⚡ No Framework
-- ⚡ Clean DOM Updates
-- ⚡ Optimized JavaScript
+Mark tasks as completed with beautiful visual feedback.
 
 ---
 
-# 🎯 UI Highlights
+### Important Tasks
 
-- ✨ Glassmorphism
-- 🌈 Gradient Background
-- 🎉 Animated Toasts
-- 🪄 Smooth Hover Effects
-- 📱 Responsive Components
-- 🌙 Premium Dark Theme
-- 💎 Modern Design Language
+Pin important tasks to the top of the workspace.
 
 ---
 
-# 💡 What I Learned
+### Safe Delete
 
-During this project I practiced:
+Deleting a task starts a countdown instead of removing it immediately, allowing users to cancel the action before it is permanently deleted.
+
+---
+
+### Automatic Saving
+
+Every change is instantly synchronized with LocalStorage, ensuring that your data remains available after refreshing or reopening the browser.
+
+---
+
+# 📊 Dashboard Features
+
+✔ Live Total Tasks Counter
+
+✔ Completed Tasks Counter
+
+✔ Removed Tasks Counter
+
+✔ Real-time UI Updates
+
+✔ Automatic Rendering
+
+✔ Responsive Components
+
+✔ Instant Filtering
+
+✔ Persistent Data
+
+---
+
+# 🎨 UI Highlights
+
+✨ Premium Glassmorphism
+
+🌙 Dark User Interface
+
+🎨 Gradient Backgrounds
+
+💎 Soft Shadows
+
+🪄 Smooth Hover Animations
+
+⚡ Fast Transitions
+
+📱 Responsive Components
+
+🎉 Animated Notifications
+
+🖥 Modern Dashboard Layout
+
+🎯 User-Friendly Experience
+
+---
+
+# ⚡ Performance
+
+Premium Todo Workspace is designed to be lightweight and fast.
+
+<div align="center">
+
+| 🚀 Feature | ✅ Status |
+|:----------:|:--------:|
+| Fast Rendering | ✔ |
+| Lightweight | ✔ |
+| Framework Free | ✔ |
+| Responsive | ✔ |
+| LocalStorage | ✔ |
+| Dynamic DOM Updates | ✔ |
+| Mobile Optimized | ✔ |
+| Smooth Animations | ✔ |
+
+</div>
+
+---
+
+# 📱 Responsive Design
+
+The application is fully optimized for every device.
+
+<div align="center">
+
+| 💻 Desktop | 📱 Mobile | 📟 Tablet | 🖥 Large Screen |
+|:----------:|:---------:|:---------:|:--------------:|
+| ✅ | ✅ | ✅ | ✅ |
+
+</div>
+
+---
+
+# 🧠 What I Learned
+
+Building this project helped me improve my understanding of modern frontend development and user interface design.
+
+### Core Skills
 
 - DOM Manipulation
 - Event Handling
-- LocalStorage
+- State Management
+- LocalStorage API
 - Responsive Design
-- State Synchronization
-- UI Animation
+- UI / UX Principles
 - Tailwind CSS
-- Vanilla JavaScript
+- JavaScript ES6+
+- Dynamic Rendering
 - Component Thinking
-- Modern UI Design
+- Performance Optimization
+- Clean Code Organization
 
 ---
 
-# 🔥 Future Improvements
+# 🛣 Roadmap
+
+The following features are planned for future releases.
 
 - 🔍 Search Tasks
+- 🏷 Categories
 - 📅 Due Dates
-- 🎯 Categories
-- 🌙 Dark / Light Mode
-- 🖱 Drag & Drop
-- ☁ Cloud Sync
+- 🎯 Task Priority
+- 🌙 Dark / Light Theme Toggle
+- 🖱 Drag & Drop Sorting
+- ☁ Cloud Synchronization
 - 👤 Authentication
-- 📈 Analytics Dashboard
-- 📌 Task Priority
+- 📊 Analytics Dashboard
 - 📂 Multiple Workspaces
+- 📎 Attachments
+- 🔔 Notifications
 
 ---
 
-# 📈 Project Goals
+# 🤝 Contributing
 
-✔ Build a modern Todo application
+Contributions, issues and feature requests are always welcome.
 
-✔ Practice JavaScript DOM manipulation
+If you have ideas for improving this project, feel free to fork the repository and submit a Pull Request.
 
-✔ Improve UI/UX skills
+---
 
-✔ Learn LocalStorage persistence
+# ⭐ Support
 
-✔ Create a portfolio-ready project
+If you enjoyed this project and found it useful, consider giving it a ⭐ on GitHub.
+
+It helps the project grow and motivates future improvements.
+
+<div align="center">
+
+<a href="https://github.com/poria-dev/Todo_List_ProPlus">
+<img src="https://img.shields.io/badge/⭐_Star_This_Project-black?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+Feel free to use, modify and distribute it.
 
 ---
 
@@ -277,19 +419,31 @@ During this project I practiced:
 
 <div align="center">
 
-## Pooria Rezaee
+# Pooria Rezaee
 
-Frontend Developer
+### Frontend Developer
 
-### 🌍 Connect With Me
+Building modern, interactive and user-focused web experiences with clean code and beautiful interfaces.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/poria-dev)
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pooria-rezaee)
+<a href="https://github.com/poria-dev">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/pori_07)
+<a href="https://www.linkedin.com/in/pooria-rezaee">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/poria.frontend)
+<a href="mailto:pooriarezaee.dev@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br><br>
+
+**Email**
+
+pooriarezaee.dev@gmail.com
 
 </div>
 
@@ -297,9 +451,32 @@ Frontend Developer
 
 <div align="center">
 
-## ⭐ If you enjoyed this project, consider giving it a Star.
+### 🚀 Premium Todo Workspace
 
-### Built with ❤️ by **Pooria Rezaee**
+Designed & Developed with ❤️ by **Pooria Rezaee**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=120&section=footer"/>
 
 </div>
-````
+## 📈 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=poria-dev&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=poria-dev&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=poria-dev&style=for-the-badge&color=blueviolet"/>
+
+⭐ **Thanks for visiting this repository!**
+
+</div>
+
+
+Designed to showcase modern frontend development skills while keeping the codebase lightweight and framework-free.
+
