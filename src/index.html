@@ -87,34 +87,35 @@
 
 
 
-        <!-- Progress -->
-<div class="w-full bg-slate-950/40 border border-slate-800/60 rounded-2xl p-5">
+<!-- Progress Bar -->
+<div class="w-full rounded-2xl border border-slate-800/60 bg-slate-950/40 p-5">
 
-    <div class="flex items-center justify-between mb-3">
-        <h3 class="text-sm font-semibold tracking-wide text-slate-300 uppercase">
+    <div class="flex justify-between items-center mb-3">
+
+        <h3 class="text-slate-300 font-semibold tracking-wide">
             Progress
         </h3>
 
-        <span id="progressText"
-            class="text-sm font-bold text-indigo-400">
+        <span id="progressNumber" class="text-indigo-400 font-bold">
             0%
         </span>
+
     </div>
 
-    <div
-        class="relative w-full h-4 bg-slate-800/70 rounded-full overflow-hidden">
+    <div class="w-full h-4 rounded-full bg-slate-800 overflow-hidden">
 
-        <div
-            id="progressBar"
-            class="absolute left-0 top-0 h-full w-0 rounded-full bg-gradient-to-r from-indigo-500 via-violet-500 to-emerald-400 transition-all duration-500">
+        <div id="progressBar"
+            class="h-full w-0 rounded-full bg-gradient-to-r from-indigo-500 via-violet-500 to-emerald-400 duration-500">
         </div>
 
     </div>
 
     <div class="flex justify-between mt-3 text-xs text-slate-500">
 
-        <span>
-            Completed
+        <span>Completed Tasks</span>
+
+        <span id="progressCount">
+            0 / 0
         </span>
 
     </div>

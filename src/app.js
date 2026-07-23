@@ -8,11 +8,11 @@ const orgbox = document.getElementById("orgbox")
 const boxadd = document.getElementById("boxadd")
 const boxremove = document.getElementById("boxremove")
 const btn2 = document.getElementById("btn2")
-let removeclick = document.querySelectorAll(".removeclick")
 const progressBar = document.getElementById("progressBar")
-const progressText = document.getElementById("progressText")
+const progressNumber = document.getElementById("progressNumber")
+const progressCount = document.getElementById("progressCount")
 
-
+let removeclick = document.querySelectorAll(".removeclick")
 
 
 
@@ -89,7 +89,7 @@ btn1.addEventListener("click", () => {
 
     }
 
-
+    progress()
 
 
 })
@@ -592,7 +592,8 @@ function progress() {
     if (total == 0) {
 
         progressBar.style.width = "0%"
-        progressText.innerHTML = "0%"
+        progressNumber.innerHTML = "0%"
+        progressCount.innerHTML = `0 / 0`
         return
 
     }
@@ -610,9 +611,12 @@ function progress() {
 
     let x = parseInt((done / total) * 100)
 
-     progressBar.style.width = x + "%"
-     progressText.innerHTML = x + "%"
+    progressBar.style.width = x + "%"
+    progressNumber.textContent = x + "%"
+    progressCount.innerHTML = `${done} / ${total}`
 
 
-    
+
+
+
 }
